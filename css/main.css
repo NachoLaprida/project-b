@@ -1,0 +1,171 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --color-bordo:#C36839;
+    --color-turquesa:#7EB5A6;
+    --color-beige:#E8D0B3;
+    --color-dorado:#FFCE45;
+}
+
+/* --- NAVIGATION BAR SECTION -------------------------------- */
+nav{
+    background-color: var(--color-bordo);
+    text-decoration: none;
+}
+.navbar .nav-item .nav-link{
+    color:var(--color-dorado);
+    border: solid 2px var(--color-dorado);
+}
+.navbar .nav-item .nav-link:hover{
+    color: var(--color-turquesa);
+    border: solid 2px var(--color-turquesa);
+    background-color: var(--color-dorado);
+}
+.navbar .nav-item .nav-link:active{
+    background-color: var(--color-turquesa);
+    color: var(--color-dorado);
+}
+.logo{
+    height: 60px;
+    width: 60px;
+}
+.logo{
+    animation-name: camus;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+        }
+    @keyframes camus {
+    0%{
+        transform: translate(10px, 0);
+    }
+    50%{
+        transform: translate(300px, 0);
+    }
+    100%{
+        transform: translate(0px, 0) rotate(360deg);
+    }
+}
+
+/* --- INDEX SECTION ------------------------------------------------------------ */
+
+.img-principal{
+    height: 220px;
+}
+
+.required{
+    background-color: var(--color-beige);
+}
+
+/* --- CIVILIZACIONES SECTION ----------------------------------------------------- */
+
+.civi-t, .civi-img{
+    display: inline;
+}
+.civi-img{
+    height: 50px;
+    width: 50px;
+}
+.civilizacion p{
+    font-size: px;
+}
+.civi-img{
+    transition: all 1s ease;
+}
+.civi-img:hover{
+    transform: rotate(360deg);
+}
+
+/* --- GALLERY SECTION -------------------------------------------------------------- */
+
+.galeria-img{
+    width: 300px;
+    height: 150px;
+    padding: 5px;
+}
+
+/* --- CONTACTO SECTION ------------------------------------------------------------- */
+
+
+/* --- FOOTER SECTION --------------------------------------------------------------- */
+footer{
+    background-color: var(--color-bordo);
+}
+
+.link-arriba a{
+    color: #86340A;
+    text-decoration: none;
+}
+.link-arriba{
+    background-color: var(--color-dorado);
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 20px;
+}
+.social-network{
+    color: #86340A;
+    font-size: 20px;
+    text-align: center;
+    transition: all 1s ease;
+}
+.social-network:hover{
+    transform: skew(10deg, 5deg);
+}
+
+.developer a{
+    color: #FFCE45;
+    text-decoration: none;
+}
+
+/* ------------- MEDIA QUERIES ----------------------------------------------------- */
+
+@media screen and (max-width: 425px) {
+
+
+    /* --- NAV SECTION ---------------------- */
+    .logo{
+        animation-name: camus;
+        animation-duration: 2s;
+        animation-delay: .5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+            }
+        @keyframes camus {
+        0%{
+            transform: translate(10px, 0);
+        }
+        50%{
+            transform: translate(200px, 0);
+        }
+        100%{
+            transform: translate(0px, 0) rotate(360deg);
+        }
+    }
+    /* --- INDEX SECTION ------------------- */
+    .img-principal{
+        width: 280px;
+        height: 180px;
+    }
+    iframe{
+        width: 300px;
+        height: 300px;
+    }
+    
+}
+@media screen and (min-width:768px) {
+
+    iframe{
+        width: 600px;
+        height: 515px;
+    }
+    /* ------ GALERIA SECTION --------------- */
+
+    .galeria-img{
+        width: 400px;
+        height: 200px;
+    }
+
+}
