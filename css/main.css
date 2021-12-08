@@ -7,11 +7,14 @@
     --color-beige:#E8D0B3;
     --color-dorado:#FFCE45;
 }
+/* --- HEADER ------------------------------------------------ */
 header{
     position: sticky;
     top: 0;
 }
+
 /* --- NAVIGATION BAR SECTION -------------------------------- */
+
 nav{
     background-color: var(--color-bordo);
     text-decoration: none;
@@ -59,7 +62,6 @@ nav{
 .img-principal{
     height: 220px;
 }
-
 .required{
     background-color: var(--color-beige);
 }
@@ -95,6 +97,7 @@ nav{
 
 
 /* --- FOOTER SECTION --------------------------------------------------------------- */
+
 footer{
     background-color: var(--color-bordo);
 }
@@ -119,7 +122,6 @@ footer{
 .social-network:hover{
     transform: skew(10deg, 5deg);
 }
-
 .developer a{
     color: #FFCE45;
     text-decoration: none;
@@ -167,6 +169,7 @@ footer{
         width: 600px;
         height: 515px;
     }
+
     /* ------ GALERIA SECTION --------------- */
 
     .galeria-img{
@@ -178,6 +181,7 @@ footer{
 @media screen and (min-width: 992px){
     
     /* --- NAV SECTION ---------------------- */
+    
     .logo{
         animation-name: camus;
         animation-duration: 2s;
