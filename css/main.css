@@ -7,11 +7,16 @@
     --color-beige:#E8D0B3;
     --color-dorado:#FFCE45;
 }
-
+header{
+    position: sticky;
+    top: 0;
+}
 /* --- NAVIGATION BAR SECTION -------------------------------- */
 nav{
     background-color: var(--color-bordo);
     text-decoration: none;
+
+    display: ;
 }
 .navbar .nav-item .nav-link{
     color:var(--color-dorado);
@@ -155,6 +160,7 @@ footer{
     }
     
 }
+
 @media screen and (min-width:768px) {
 
     iframe{
@@ -168,4 +174,27 @@ footer{
         height: 200px;
     }
 
+}
+@media screen and (min-width: 992px){
+    
+    /* --- NAV SECTION ---------------------- */
+    .logo{
+        animation-name: camus;
+        animation-duration: 2s;
+        animation-delay: .5s;
+        animation-iteration-count: initial;
+        animation-timing-function: ease;
+            }
+        @keyframes camus {
+        0%{
+            transform: translate(10px, 0);
+        }
+        50%{
+            transform: translate(300px, 0);
+        }
+        100%{
+            transform: translate(0px, 0) rotate(360deg);
+        }
+    }
+    
 }
