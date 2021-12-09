@@ -1,5 +1,6 @@
 *{
     font-family: 'Roboto', sans-serif;
+    
 }
 :root{
     --color-bordo:#C36839;
@@ -8,10 +9,6 @@
     --color-dorado:#FFCE45;
 }
 /* --- HEADER ------------------------------------------------ */
-header{
-    position: sticky;
-    top: 0;
-}
 
 /* --- NAVIGATION BAR SECTION -------------------------------- */
 
