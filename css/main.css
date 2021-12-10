@@ -108,7 +108,7 @@ footer{
     text-align: center;
     font-weight: bold;
     border-radius: 20px;
-    width: 20px;
+    width: 90%;
 }
 .social-network{
     color: #86340A;
@@ -165,6 +165,9 @@ footer{
     iframe{
         width: 600px;
         height: 515px;
+    }
+    .link-arriba{
+        width: 40%;
     }
 
     /* ------ GALERIA SECTION --------------- */
