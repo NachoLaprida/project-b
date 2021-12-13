@@ -73,7 +73,7 @@ nav{
     width: 50px;
 }
 .civilizacion p{
-    font-size: px;
+    font-size: 12px;
 }
 .civi-img{
     transition: all 1s ease;
@@ -93,6 +93,15 @@ nav{
 /* --- CONTACTO SECTION ------------------------------------------------------------- */
 
 
+.btn{
+    background-color: var(--color-bordo);
+    border: solid var(--color-dorado);
+}
+.btn:hover{
+    background-color: var(--color-dorado);
+    color: var(--color-bordo);
+    border: solid var(--color-bordo);
+}
 /* --- FOOTER SECTION --------------------------------------------------------------- */
 
 footer{
