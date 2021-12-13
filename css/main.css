@@ -123,11 +123,8 @@ footer{
     color: #86340A;
     font-size: 20px;
     text-align: center;
-    transition: all 1s ease;
 }
-.social-network:hover{
-    transform: skew(10deg, 5deg);
-}
+
 .developer a{
     color: #FFCE45;
     text-decoration: none;
